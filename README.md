@@ -12,9 +12,12 @@ This package provides a Matlab (object-oriented) implementation of Bayesian CCA.
 Parameter estimation and prediction of Bayesian CCA are demonstrated using visual image reconstruction data from Miyawaki et al. 2008.
 
 ###Contents:###
-vbBCCA/  	Bayesian CCA source code.
-script/		Examples; parameter estimation, visual image reconstruction and identification.
-data/		Visual images and corresponding fMRI data for area V1.
+- vbBCCA/  	
+ - Bayesian CCA source code.
+- script/		
+ - Examples; parameter estimation, visual image reconstruction and identification.
+- data/		
+ - Visual images and corresponding fMRI data for area V1.
 
 ###Details:###
 **vbBCCA/**
