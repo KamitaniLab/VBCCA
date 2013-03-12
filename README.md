@@ -6,6 +6,7 @@ Variational Bayesian Canonical Correlation Analysis
 
 Developed by Yusuke Fujiwara
 Email: yureisoul [at] gmail [dot] com
+
 2013/03/11
 
 This package provides a Matlab (object-oriented) implementation of Bayesian CCA.
