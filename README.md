@@ -17,22 +17,33 @@ script/		Examples; parameter estimation, visual image reconstruction and identif
 data/		Visual images and corresponding fMRI data for area V1.
 
 ###Details:###
-vbBCCA/
-  BCCAtrainMain.m   Estimate parameters for Bayesian CCA.
-  BCCApredOneWay.m  Predict data1 from data2 or data2 from data1.
-  BCCApredBoth.m    Predict data1 from data2 and data2 from data1.
-  vbBCCA.m          Superclass of BCCAtrain and BCCApred. Interface of data input.
-  BCCAtrain.m       Object for parameter estimation.
-  BCCApred.m        Object for prediction.
+**vbBCCA/**
+  - BCCAtrainMain.m   
+   - Estimate parameters for Bayesian CCA.
+  - BCCApredOneWay.m  
+   - Predict data1 from data2 or data2 from data1.
+  - BCCApredBoth.m    
+   - Predict data1 from data2 and data2 from data1.
+  - vbBCCA.m          
+   - Superclass of BCCAtrain and BCCApred. Interface of data input.
+  - BCCAtrain.m       
+   - Object for parameter estimation.
+  - BCCApred.m        
+   - Object for prediction.
 
-script/
-  bcca_trainRandom_testFigure.m     Visual image reconstruction.
-  bcca_Random_identification.m      Visual image identification by comparing brain activity patterns.
-  setfigure.m                       Figure setting in bcca_trainRandom_testFigure.
+**script/**
+  - bcca_trainRandom_testFigure.m     
+   - Visual image reconstruction.
+  - bcca_Random_identification.m      
+   - Visual image identification by comparing brain activity patterns.
+  - setfigure.m                       
+   - Figure setting in bcca_trainRandom_testFigure.
 
-data/
-  V1_raw_random.mat      Visual image and fMRI data of "random image session."
-  V1_mean_figure.mat     Visual image and fMRI data of "figure image session."
+**data/**
+  - V1_raw_random.mat      
+   - Visual image and fMRI data of "random image session."
+  - V1_mean_figure.mat     
+   - Visual image and fMRI data of "figure image session."
  
 
 ###Cite:###
