@@ -11,12 +11,12 @@ Email: yureisoul [at] gmail [dot] com
 This package provides a Matlab (object-oriented) implementation of Bayesian CCA.
 Parameter estimation and prediction of Bayesian CCA are demonstrated using visual image reconstruction data from Miyawaki et al. 2008.
 
-Contents:
+###Contents:###
 vbBCCA/  	Bayesian CCA source code.
 script/		Examples; parameter estimation, visual image reconstruction and identification.
 data/		Visual images and corresponding fMRI data for area V1.
 
-Details:
+###Details:###
 vbBCCA/
   BCCAtrainMain.m   Estimate parameters for Bayesian CCA.
   BCCApredOneWay.m  Predict data1 from data2 or data2 from data1.
@@ -35,15 +35,15 @@ data/
   V1_mean_figure.mat     Visual image and fMRI data of "figure image session."
  
 
-Cite:
+###Cite:###
 Fujiwara Y, Miyawaki Y and Kamitani Y. (2013). Modular encoding and decoding models derived from Bayesian Canonical Correlation Analysis. Neural Computation, in press.
 
-References:
+###References:###
 Miyawaki Y, Uchida H, et al., and Kamitani Y. (2008). Visual image reconstruction from human brain activity using a combination of multi scale local image decoders. Neuron, 60, 915-929.
 Fujiwara, Y., Miyawaki, Y., and Kamitani, Y. (2009). Estimating image bases for visual image reconstruction from human brain activity. Advances in neural information processing systems, 22, 576-584.
 (http://books.nips.cc/papers/files/nips22/NIPS2009_0804.pdf)
 
-License:
+###License:###
 Copyright (c) 2013, Yusuke Fujiwara
 All rights reserved.
 
