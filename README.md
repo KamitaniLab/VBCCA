@@ -47,11 +47,11 @@ data/		Visual images and corresponding fMRI data for area V1.
  
 
 ###Cite:###
-Fujiwara Y, Miyawaki Y and Kamitani Y. (2013). Modular encoding and decoding models derived from Bayesian Canonical Correlation Analysis. Neural Computation, in press.
+- Fujiwara Y, Miyawaki Y and Kamitani Y. (2013). Modular encoding and decoding models derived from Bayesian Canonical Correlation Analysis. Neural Computation, in press.
 
 ###References:###
-Miyawaki Y, Uchida H, et al., and Kamitani Y. (2008). Visual image reconstruction from human brain activity using a combination of multi scale local image decoders. Neuron, 60, 915-929.
-Fujiwara, Y., Miyawaki, Y., and Kamitani, Y. (2009). Estimating image bases for visual image reconstruction from human brain activity. Advances in neural information processing systems, 22, 576-584.
+- Miyawaki Y, Uchida H, et al., and Kamitani Y. (2008). Visual image reconstruction from human brain activity using a combination of multi scale local image decoders. Neuron, 60, 915-929.
+- Fujiwara, Y., Miyawaki, Y., and Kamitani, Y. (2009). Estimating image bases for visual image reconstruction from human brain activity. Advances in neural information processing systems, 22, 576-584.
 (http://books.nips.cc/papers/files/nips22/NIPS2009_0804.pdf)
 
 ###License:###
