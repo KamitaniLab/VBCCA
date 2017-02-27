@@ -3,7 +3,7 @@
 % Visual images are identified by comparing the predicted and measured fMRI data.
 
 addpath('../vbBCCA/');
-data_file = '../data/V1_raw_random.mat';
+data_file = './data/V1_raw_random.mat';
 
 load(data_file,'I','R');
 

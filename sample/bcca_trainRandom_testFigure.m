@@ -3,8 +3,8 @@
 % After that, visual images of letters and geometric shapes are reconstructed from fMRI data.
 
 addpath('../vbBCCA/');
-train_file = '../data/V1_raw_random.mat';
-test_file = '../data/V1_mean_figure.mat';
+train_file = './data/V1_raw_random.mat';
+test_file = './data/V1_mean_figure.mat';
 
 load(train_file,'I','R');
 
