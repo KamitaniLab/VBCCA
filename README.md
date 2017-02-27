@@ -5,50 +5,24 @@ Developed by Yusuke Fujiwara (email: yureisoul [at] gmail [dot] com), 2013/03/11
 This package provides a Matlab (object-oriented) implementation of Bayesian CCA.
 Parameter estimation and prediction of Bayesian CCA are demonstrated using visual image reconstruction data from Miyawaki et al. 2008.
 
-## Directories
+## Directories and files
 
-- `vbBCCA`
-    - Bayesian CCA source code.
-- `script`
-    - Examples; parameter estimation, visual image reconstruction and identification.
-- `data`
-    - Visual images and corresponding fMRI data for area V1.
-
-## Files
-
-### vbBCCA
-
-- `BCCAtrainMain.m`
-    - Estimate parameters for Bayesian CCA.
-- `BCCApredOneWay.m`
-    - Predict data1 from data2 or data2 from data1.
-- `BCCApredBoth.m`
-    - Predict data1 from data2 and data2 from data1.
-- `vbBCCA.m`
-    - Superclass of BCCAtrain and BCCApred. Interface of data input.
-- `BCCAtrain.m`
-    - Object for parameter estimation.
-- `BCCApred.m`
-    - Object for prediction.
-
-### script
-
-- `bcca_trainRandom_testFigure.m`
-    - Visual image reconstruction.
-- `bcca_Random_identification.m`
-    - Visual image identification by comparing brain activity patterns.
-- `setfigure.m`
-    - Figure setting in bcca_trainRandom_testFigure.
-
-### data/
-
-- `V1_raw_random.mat`
-    - Visual image and fMRI data of "random image session."
-- `V1_mean_figure.mat`
-    - Visual image and fMRI data of "figure image session."
+- `vbBCCA/`: Bayesian CCA source code.
+    - `BCCAtrainMain.m`: Estimate parameters for Bayesian CCA.
+    - `BCCApredOneWay.m`: Predict data1 from data2 or data2 from data1.
+    - `BCCApredBoth.m`: Predict data1 from data2 and data2 from data1.
+    - `vbBCCA.m`: Superclass of BCCAtrain and BCCApred. Interface of data input.
+    - `BCCAtrain.m`: Object for parameter estimation.
+    - `BCCApred.m`: Object for prediction.
+- `sample/`: Example scripts for parameter estimation, visual image reconstruction and identification.
+    - `bcca_trainRandom_testFigure.m`: Demo script for visual image reconstruction.
+    - `bcca_Random_identification.m`: Demo script for visual image identification by comparing brain activity patterns.
+    - `setfigure.m`: Figure setting in bcca_trainRandom_testFigure.
+    - `data/`: Visual images and corresponding fMRI data for area V1.
+        - `V1_raw_random.mat`: Visual image and fMRI data of "random image session."
+        - `V1_mean_figure.mat`: Visual image and fMRI data of "figure image session."
 
 ## Citation
-
 
 Fujiwara Y, Miyawaki Y and Kamitani Y. (2013). Modular encoding and decoding models derived from Bayesian Canonical Correlation Analysis. *Neural Computation* **25**, 979-1005. <http://www.mitpressjournals.org/doi/abs/10.1162/NECO_a_00423>
 
